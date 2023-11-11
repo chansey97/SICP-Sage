@@ -5,6 +5,12 @@ A GPT assistant for SICP study, referencing solutions
 
 https://chat.openai.com/g/g-Jd8EjuxN9-sicp-sage
 
+## Screenshot
+
+![ex](ex.JPG)
+
+![ex-sol](ex-sol.JPG)
+
 ## How to create your own GPT
 
 0. Prerequisites: ChatGPT Plus
