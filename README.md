@@ -7,16 +7,22 @@ https://chat.openai.com/g/g-Jd8EjuxN9-sicp-sage
 
 ## How to create your own GPT
 
-Explore → Create a GPT → Configure
+1. Explore → Create a GPT → Configure
 
-Fill in Name and Description.
+2. Fill in Name and Description.
 
-Copy Instructions.txt to Instructions.
+3. Copy Instructions.txt to Instructions.
 
-Upload files - Knowledge/sicp-book.org and Knowledge/sicp-solution.org
+4. Upload files - Knowledge/sicp-book.org and Knowledge/sicp-solution.org
 
-Uncheck DALL-E Image Generation.
+5. Uncheck DALL-E Image Generation.
 
-Check Code Interpreter.
+6. Check Code Interpreter.
 
 **Don't use GPT Builder in the Create Tab!**
+
+## Knowledge
+
+https://github.com/ilmotta/sicp-org
+
+https://gitlab.com/Lockywolf/chibi-sicp
