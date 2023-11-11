@@ -7,6 +7,8 @@ https://chat.openai.com/g/g-Jd8EjuxN9-sicp-sage
 
 ## How to create your own GPT
 
+0. Prerequisites: ChatGPT Plus
+
 1. Explore → Create a GPT → Configure
 
 2. Fill in Name and Description.
@@ -26,3 +28,5 @@ https://chat.openai.com/g/g-Jd8EjuxN9-sicp-sage
 https://github.com/ilmotta/sicp-org
 
 https://gitlab.com/Lockywolf/chibi-sicp
+
+https://github.com/chansey97/sicp (My own sicp solutions via Racket)
