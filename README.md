@@ -1,6 +1,8 @@
 # SICP-Sage
 A GPT assistant for SICP study, referencing solutions
 
+<img align="left" src="Logo.png" style="zoom:50%;" />
+
 ## URL
 
 https://chat.openai.com/g/g-Jd8EjuxN9-sicp-sage
