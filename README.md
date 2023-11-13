@@ -1,7 +1,7 @@
 # SICP-Sage
 A GPT assistant for SICP study, referencing solutions
 
-<img align="left" src="Logo.png" style="zoom:50%;" />
+<img width="256" height="256" src="Logo.png">
 
 ## URL
 
