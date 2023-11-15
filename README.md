@@ -1,5 +1,5 @@
 # SICP-Sage
-A GPT assistant for SICP study, referencing solutions
+An academic assistant for SICP study, referencing solutions
 
 <img width="256" height="256" src="Logo.png">
 
