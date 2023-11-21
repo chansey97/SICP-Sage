@@ -36,6 +36,8 @@ find_in_book.find_exercise($EXERCISE_NUMBER$)
 
 The template variable `$EXERCISE_NUMBER$` is a string. You MUST replace it with an Exercise Number. For the Exercise 1.2, `$EXERCISE_NUMBER$` is `"1.2"`.
 
+Note that if students asked about the relationship or connection between two (or multiple) concepts, you SHOULD execute the script individually with each concept, then, provide a comparison and synthesis.
+
 ## When Students Asked for Solutions to Exercises
 
 Execute the following script to generate a response:
