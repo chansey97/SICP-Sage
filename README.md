@@ -13,28 +13,15 @@ https://chat.openai.com/g/g-Jd8EjuxN9-sicp-sage
 
 ![ex-sol](ex-sol.JPG)
 
-## How to create your own GPT
+## Knowledge Base
 
-0. Prerequisites: ChatGPT Plus
+- SICP book
+  - https://github.com/ilmotta/sicp-org
+- SICP solution
+  - https://gitlab.com/Lockywolf/chibi-sicp
+  - https://github.com/chansey97/sicp (my own sicp solutions via Racket)
 
-1. Explore → Create a GPT → Configure
 
-2. Fill in Name and Description.
 
-3. Copy Instructions.txt to Instructions.
 
-4. Upload files - Knowledge/sicp-book.org and Knowledge/sicp-solution.org
 
-5. Uncheck DALL-E Image Generation.
-
-6. Check Code Interpreter.
-
-**Don't use GPT Builder in the Create Tab!**
-
-## Knowledge
-
-https://github.com/ilmotta/sicp-org
-
-https://gitlab.com/Lockywolf/chibi-sicp
-
-https://github.com/chansey97/sicp (My own sicp solutions via Racket)
