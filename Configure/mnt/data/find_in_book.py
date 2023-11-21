@@ -33,21 +33,21 @@ def find_concept_contexts(keyword):
 
 def find_concept_contexts_via_index(keyword):
 
-    def find_ref_in_index(keyword):
+    def find_ref_kw_s_in_index(keyword):
         items = str(INDEX).splitlines()[2:]
-        pattern = r'- \[\[(i.+)\]\[' + re.escape(keyword) + r'(?:.* .*)?\]\]'
+        pattern = r'- \[\[(i.+)\]\[(.*' + re.escape(keyword) + r'.*)\]\]'
         matches = re.findall(pattern, '\n'.join(items), re.IGNORECASE)
         return matches
 
-    refs = find_ref_in_index(keyword)
-    if refs:
+    ref_kw_s = find_ref_kw_s_in_index(keyword)
+    if ref_kw_s:
         contexts = []
-        for ref in refs:
+        for ref, kw in ref_kw_s:
             for node in SICP_BOOK_ROOT:
                 ctxs = extract_contexts("<<" + ref + ">>", node)
                 for ctx in ctxs:
-                    ctx["keyword"] = keyword
                     ctx["ref"] = ref
+                    ctx["keyword"] = kw
                 contexts += ctxs
         return contexts
     else:
@@ -100,6 +100,7 @@ def extract_contexts(keyword, node, context_range=500, jump_range=250):
 # concept = "stream"
 # concept = "abstraction barriers"
 # concept = "monad"
+# concept = "object"
 # concept_contexts = find_concept_contexts(concept)
 # print(concept_contexts)
 
