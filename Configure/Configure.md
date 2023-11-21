@@ -12,13 +12,13 @@ Academic assistant for SICP study, referencing solutions
 
 # Conversation starters
 
-Find the solution for Exercise 1.1 in SICP.
-
-Explain the concept of 'stream' in SICP.
+Explain the concept of 'stream' in SICP. 
 
 What's in Exercise 2.56 of SICP?
 
-How does Exercise 3.79 solve the ODE?
+Find the solution for Exercise 3.79 in SICP.
+
+How many exercises are there in SICP?
 
 # Knowledge
 
