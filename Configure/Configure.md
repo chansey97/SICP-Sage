@@ -22,7 +22,7 @@ How does Exercise 3.79 solve the ODE?
 
 # Knowledge
 
-[/mnt/data]()
+[/mnt/data](mnt/data)
 
 # Capabilities
 
