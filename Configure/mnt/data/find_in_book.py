@@ -67,7 +67,7 @@ def find_concept_contexts_via_full_text(keyword):
         concept_contexts.extend(extract_contexts(keyword, node))
     return concept_contexts
 
-def extract_contexts(keyword, node, context_range=500, jump_range=250):
+def extract_contexts(keyword, node, context_range_l=500, context_range_r=1000, jump_range=800):
 
     def calc_location(node):
         headings = []
@@ -84,8 +84,8 @@ def extract_contexts(keyword, node, context_range=500, jump_range=250):
     while position < len(text):
         found_position = text.find(keyword, position)
         if found_position != -1:
-            start = max(0, found_position - context_range)
-            end = min(len(text), found_position + len(keyword) + context_range)
+            start = max(0, found_position - context_range_l)
+            end = min(len(text), found_position + len(keyword) + context_range_r)
             context = {'keyword':keyword, 'content':text[start:end], 'location':location}
             contexts.append(context)
             position = found_position + len(keyword) + jump_range
